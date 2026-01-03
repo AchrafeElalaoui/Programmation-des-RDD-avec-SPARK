@@ -1,0 +1,9 @@
+target/
+.idea/
+.classpath
+.project
+.settings/
+
+# Optional local JDK downloads (if you use them)
+.local-jdk/
+

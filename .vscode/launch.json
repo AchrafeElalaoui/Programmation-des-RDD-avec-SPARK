@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "TP1 Ex1 - Total ventes par ville",
+      "request": "launch",
+      "mainClass": "ma.enset.bigdata.rdd.VentesTotalParVille",
+      "vmArgs": "--add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED",
+      "args": "ventes.txt"
+    },
+    {
+      "type": "java",
+      "name": "TP1 Ex1 - Total ventes par ville/année",
+      "request": "launch",
+      "mainClass": "ma.enset.bigdata.rdd.VentesTotalParVilleParAnnee",
+      "vmArgs": "--add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED",
+      "args": "ventes.txt"
+    },
+    {
+      "type": "java",
+      "name": "TP1 Ex2 - Log analyzer",
+      "request": "launch",
+      "mainClass": "ma.enset.bigdata.rdd.LogAnalyzer",
+      "vmArgs": "--add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED",
+      "args": "data/access.log"
+    }
+  ]
+}
